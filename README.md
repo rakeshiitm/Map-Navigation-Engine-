@@ -1,5 +1,29 @@
-# Map-Navigation-Engine-
-Built a shortest-path routing engine in C++ over 1,000+ node road network, resolving optimal routes under 50ms using Dijkstra's and A* algorithms on weighted directed graph using priority queue.
-Reduced repeated route-query time to O (1) by designing an LRU Cache from scratch using unordered map + doubly linked list, cutting redundant computation for duplicate source-destination pairs.
-Developed location autocomplete in O(L) time across 500+ city names using a Trie with DFS traversal, and a min-heap for top K ranking; integrated Union-Find with path compression for O(α) connectivity checks before invoking the router , securely eliminating invalid route attempts entirely. 
-Optimized bulk traffic-delay updates from O(n) to O(log n) by building a Segment Tree with lazy propagation, enabling real-time range-based edge weight change without full graph recomputation
+# Map & Navigation Engine
+
+A C++ based shortest-path routing engine with optimized search and caching.
+
+## Features
+*   **Dijkstra's Algorithm**: Finds the shortest path between nodes.
+*   **LRU Cache**: Instant O(1) results for repeat queries.
+*   **Trie Autocomplete**: Fast location name searching.
+*   **Min-Heap Ranking**: Identifies main transit hubs.
+*   **XML Support**: Reads map data from XML files.
+
+## How to Run
+
+1. **Compile**:
+   ```bash
+   clang++ dijsktra.cpp -o engine
+   ```
+
+2. **Run**:
+   ```bash
+   ./engine map.xml <source_id> <destination_id>
+   ```
+
+## Example
+```bash
+./engine map.xml 1 4
+```
+*   **First run**: Calculates path.
+*   **Second run**: Returns result instantly from cache.
