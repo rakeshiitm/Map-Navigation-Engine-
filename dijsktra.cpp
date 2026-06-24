@@ -12,16 +12,14 @@
 using namespace std;
 using namespace rapidxml;
 
-// Structure to store route results
 struct RouteResult {
     int distance;
     vector<int> path;
 };
 
-// --- LRU CACHE IMPLEMENTATION ---
 class LRUCache {
     int capacity;
-    list<pair<pair<int, int>, RouteResult>> dq; // stores {{src, des}, result}
+    list<pair<pair<int, int>, RouteResult>> dq;
     unordered_map<string, list<pair<pair<int, int>, RouteResult>>::iterator> ma;
 
 public:
@@ -30,8 +28,7 @@ public:
     RouteResult* get(int src, int des) {
         string key = to_string(src) + "_" + to_string(des);
         if (ma.find(key) == ma.end()) return nullptr;
-        
-        // Move to front (Most Recently Used)
+
         dq.splice(dq.begin(), dq, ma[key]);
         return &ma[key]->second;
     }
@@ -50,11 +47,10 @@ public:
     }
 };
 
-// --- TRIE FOR AUTOCOMPLETE ---
 class TrieNode {
 public:
     unordered_map<char, TrieNode*> children;
-    int nodeId; // Stores node ID if it's a valid end of a name
+    int nodeId; 
     TrieNode() : nodeId(-1) {}
 };
 
@@ -83,8 +79,7 @@ public:
     }
 };
 
-// --- GLOBAL ENGINE STATE ---
-LRUCache cache(10); // Cache last 10 queries
+LRUCache cache(10); 
 Trie locationTrie;
 unordered_map<int, string> idToName;
 
@@ -188,7 +183,6 @@ bool readXML(string filename, vector<vector<pair<int,int>>> &adj) {
     return true;
 }
 
-// --- TOP K CONNECTIVITY CHECK ---
 struct NodeConnectivity {
     int nodeId;
     int degree;
@@ -224,7 +218,6 @@ void solve(string filename, int srcId, int desId) {
         if (filename.find(".xml") != string::npos) readXML(filename, adj);
         else readNodes(filename, adj);
         
-        // Connectivity Check (Top K Ranking)
         cout << "[System Info] Identifying top 3 transit hubs..." << endl;
         vector<int> hubs = getTopKHubs(adj, 3);
         for (int hubId : hubs) {
@@ -237,13 +230,11 @@ void solve(string filename, int srcId, int desId) {
         return;
     }
     
-    // Quick connectivity check: Is the node even in the graph?
     if (adj[srcId].empty() && adj[desId].empty()) {
         cerr << "Error! Source and Destination are isolated. Route attempt eliminated." << endl;
         return;
     }
 
-    // Check LRU Cache
     RouteResult* cached = cache.get(srcId, desId);
     if (cached) {
         cout << "[Cache Hit] Returning stored route." << endl;
@@ -293,7 +284,6 @@ int main(int argc, char* argv[]) {
     cout << "--- First Query ---" << endl;
     solve(filename, src, des);
     
-    // Demonstrate LRU Cache
     cout << "\n--- Repeating same query (LRU Cache Demonstration) ---" << endl;
     solve(filename, src, des);
     
