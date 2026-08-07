@@ -12,14 +12,16 @@
 using namespace std;
 using namespace rapidxml;
 
+
 struct RouteResult {
     int distance;
     vector<int> path;
 };
 
+
 class LRUCache {
     int capacity;
-    list<pair<pair<int, int>, RouteResult>> dq;
+    list<pair<pair<int, int>, RouteResult>> dq; 
     unordered_map<string, list<pair<pair<int, int>, RouteResult>>::iterator> ma;
 
 public:
@@ -28,6 +30,7 @@ public:
     RouteResult* get(int src, int des) {
         string key = to_string(src) + "_" + to_string(des);
         if (ma.find(key) == ma.end()) return nullptr;
+        
 
         dq.splice(dq.begin(), dq, ma[key]);
         return &ma[key]->second;
@@ -46,6 +49,7 @@ public:
         ma[key] = dq.begin();
     }
 };
+
 
 class TrieNode {
 public:
@@ -77,7 +81,27 @@ public:
         }
         return curr->nodeId;
     }
+
+    void collectAllIds(TrieNode* node, vector<int>& results) {
+        if (!node) return;
+        if (node->nodeId != -1) results.push_back(node->nodeId);
+        for (auto& childPair : node->children)
+            collectAllIds(childPair.second, results);
+    }
+
+    vector<int> autocomplete(const string& prefix) {
+        TrieNode* curr = root;
+        for (char ch : prefix) {
+            if (curr->children.find(ch) == curr->children.end())
+                return {};
+            curr = curr->children[ch];
+        }
+        vector<int> results;
+        collectAllIds(curr, results);
+        return results;
+    }
 };
+
 
 LRUCache cache(10); 
 Trie locationTrie;
@@ -108,6 +132,7 @@ void dijkstra(int src, vector<vector<pair<int,int>>> &adj, vector<int> &dist, ve
         }
     }
 }
+
 bool readNodes(string filename, vector<vector<pair<int,int>>> &adj) {
     ifstream file(filename);
     if (!file.is_open()) {
@@ -130,7 +155,6 @@ bool readNodes(string filename, vector<vector<pair<int,int>>> &adj) {
     return true;
 }
 
-//This readXML fucntion is made using help of LLM.
 bool readXML(string filename, vector<vector<pair<int,int>>> &adj) {
     ifstream file(filename);
     if (!file.is_open()) return false;
@@ -218,6 +242,7 @@ void solve(string filename, int srcId, int desId) {
         if (filename.find(".xml") != string::npos) readXML(filename, adj);
         else readNodes(filename, adj);
         
+
         cout << "[System Info] Identifying top 3 transit hubs..." << endl;
         vector<int> hubs = getTopKHubs(adj, 3);
         for (int hubId : hubs) {
@@ -230,10 +255,12 @@ void solve(string filename, int srcId, int desId) {
         return;
     }
     
+
     if (adj[srcId].empty() && adj[desId].empty()) {
         cerr << "Error! Source and Destination are isolated. Route attempt eliminated." << endl;
         return;
     }
+
 
     RouteResult* cached = cache.get(srcId, desId);
     if (cached) {
@@ -271,6 +298,18 @@ void solve(string filename, int srcId, int desId) {
     }
 }
 
+void printAutocompleteResults(const string& prefix) {
+    vector<int> ids = locationTrie.autocomplete(prefix);
+    if (ids.empty()) {
+        cout << "No autocomplete results found for '" << prefix << "'." << endl;
+        return;
+    }
+    cout << "Autocomplete results for '" << prefix << "':" << endl;
+    for (int id : ids) {
+        cout << " - [" << id << "] " << idToName[id] << endl;
+    }
+}
+
 int main(int argc, char* argv[]) {
     if (argc < 4) {
         cerr << "Usage: " << argv[0] << " <filename> <source_node> <destination_node>" << endl;
@@ -283,7 +322,11 @@ int main(int argc, char* argv[]) {
 
     cout << "--- First Query ---" << endl;
     solve(filename, src, des);
-    
+
+    cout << "\n--- Autocomplete Example ---" << endl;
+    printAutocompleteResults("M");
+    printAutocompleteResults("Sa");
+
     cout << "\n--- Repeating same query (LRU Cache Demonstration) ---" << endl;
     solve(filename, src, des);
     
