@@ -1,0 +1,1990 @@
+<?xml version="1.0" encoding="utf-8"?>
+<osm>
+    <!--Nodes represent intersections or points on a road-->
+    <node id="1" lat="40.7128" lon="-74.0060">
+        <tag k="name" v="New York"/>
+    </node>
+    <node id="2" lat="34.0522" lon="-118.2437">
+        <tag k="name" v="Los Angeles"/>
+    </node>
+    <node id="3" lat="41.8781" lon="-87.6298">
+        <tag k="name" v="Chicago"/>
+    </node>
+    <node id="4" lat="29.7604" lon="-95.3698">
+        <tag k="name" v="Houston"/>
+    </node>
+    <node id="5" lat="33.4484" lon="-112.0740">
+        <tag k="name" v="Phoenix"/>
+    </node>
+    <node id="6" lat="39.9526" lon="-75.1652">
+        <tag k="name" v="Philadelphia"/>
+    </node>
+    <node id="7" lat="29.4241" lon="-98.4936">
+        <tag k="name" v="San Antonio"/>
+    </node>
+    <node id="8" lat="32.7157" lon="-117.1611">
+        <tag k="name" v="San Diego"/>
+    </node>
+    <node id="9" lat="32.7767" lon="-96.7970">
+        <tag k="name" v="Dallas"/>
+    </node>
+    <node id="10" lat="37.3382" lon="-121.8863">
+        <tag k="name" v="San Jose"/>
+    </node>
+    <node id="11" lat="30.2672" lon="-97.7431">
+        <tag k="name" v="Austin"/>
+    </node>
+    <node id="12" lat="30.3322" lon="-81.6557">
+        <tag k="name" v="Jacksonville"/>
+    </node>
+    <node id="13" lat="32.7555" lon="-97.3308">
+        <tag k="name" v="Fort Worth"/>
+    </node>
+    <node id="14" lat="39.9612" lon="-82.9988">
+        <tag k="name" v="Columbus"/>
+    </node>
+    <node id="15" lat="35.2271" lon="-80.8431">
+        <tag k="name" v="Charlotte"/>
+    </node>
+    <node id="16" lat="37.7749" lon="-122.4194">
+        <tag k="name" v="San Francisco"/>
+    </node>
+    <node id="17" lat="39.7684" lon="-86.1581">
+        <tag k="name" v="Indianapolis"/>
+    </node>
+    <node id="18" lat="47.6062" lon="-122.3321">
+        <tag k="name" v="Seattle"/>
+    </node>
+    <node id="19" lat="39.7392" lon="-104.9903">
+        <tag k="name" v="Denver"/>
+    </node>
+    <node id="20" lat="38.9072" lon="-77.0369">
+        <tag k="name" v="Washington"/>
+    </node>
+    <node id="21" lat="42.3601" lon="-71.0589">
+        <tag k="name" v="Boston"/>
+    </node>
+    <node id="22" lat="31.7619" lon="-106.4850">
+        <tag k="name" v="El Paso"/>
+    </node>
+    <node id="23" lat="42.3314" lon="-83.0458">
+        <tag k="name" v="Detroit"/>
+    </node>
+    <node id="24" lat="36.1627" lon="-86.7816">
+        <tag k="name" v="Nashville"/>
+    </node>
+    <node id="25" lat="45.5051" lon="-122.6750">
+        <tag k="name" v="Portland"/>
+    </node>
+    <node id="26" lat="35.1495" lon="-90.0490">
+        <tag k="name" v="Memphis"/>
+    </node>
+    <node id="27" lat="35.4676" lon="-97.5164">
+        <tag k="name" v="Oklahoma City"/>
+    </node>
+    <node id="28" lat="36.1699" lon="-115.1398">
+        <tag k="name" v="Las Vegas"/>
+    </node>
+    <node id="29" lat="38.2527" lon="-85.7585">
+        <tag k="name" v="Louisville"/>
+    </node>
+    <node id="30" lat="39.2904" lon="-76.6122">
+        <tag k="name" v="Baltimore"/>
+    </node>
+    <node id="31" lat="43.0389" lon="-87.9065">
+        <tag k="name" v="Milwaukee"/>
+    </node>
+    <node id="32" lat="35.0844" lon="-106.6504">
+        <tag k="name" v="Albuquerque"/>
+    </node>
+    <node id="33" lat="32.2226" lon="-110.9747">
+        <tag k="name" v="Tucson"/>
+    </node>
+    <node id="34" lat="36.7378" lon="-119.7871">
+        <tag k="name" v="Fresno"/>
+    </node>
+    <node id="35" lat="38.5816" lon="-121.4944">
+        <tag k="name" v="Sacramento"/>
+    </node>
+    <node id="36" lat="39.0997" lon="-94.5786">
+        <tag k="name" v="Kansas City"/>
+    </node>
+    <node id="37" lat="33.7701" lon="-118.1937">
+        <tag k="name" v="Long Beach"/>
+    </node>
+    <node id="38" lat="33.4152" lon="-111.8315">
+        <tag k="name" v="Mesa"/>
+    </node>
+    <node id="39" lat="33.7490" lon="-84.3880">
+        <tag k="name" v="Atlanta"/>
+    </node>
+    <node id="40" lat="38.8339" lon="-104.8214">
+        <tag k="name" v="Colorado Springs"/>
+    </node>
+    <node id="41" lat="36.8529" lon="-75.9780">
+        <tag k="name" v="Virginia Beach"/>
+    </node>
+    <node id="42" lat="35.7796" lon="-78.6382">
+        <tag k="name" v="Raleigh"/>
+    </node>
+    <node id="43" lat="41.2565" lon="-95.9345">
+        <tag k="name" v="Omaha"/>
+    </node>
+    <node id="44" lat="25.7617" lon="-80.1918">
+        <tag k="name" v="Miami"/>
+    </node>
+    <node id="45" lat="37.8044" lon="-122.2711">
+        <tag k="name" v="Oakland"/>
+    </node>
+    <node id="46" lat="44.9778" lon="-93.2650">
+        <tag k="name" v="Minneapolis"/>
+    </node>
+    <node id="47" lat="36.1540" lon="-95.9928">
+        <tag k="name" v="Tulsa"/>
+    </node>
+    <node id="48" lat="37.6872" lon="-97.3301">
+        <tag k="name" v="Wichita"/>
+    </node>
+    <node id="49" lat="29.9511" lon="-90.0715">
+        <tag k="name" v="New Orleans"/>
+    </node>
+    <node id="50" lat="32.7357" lon="-97.1081">
+        <tag k="name" v="Arlington"/>
+    </node>
+    <node id="51" lat="41.4993" lon="-81.6944">
+        <tag k="name" v="Cleveland"/>
+    </node>
+    <node id="52" lat="35.3733" lon="-119.0187">
+        <tag k="name" v="Bakersfield"/>
+    </node>
+    <node id="53" lat="27.9506" lon="-82.4572">
+        <tag k="name" v="Tampa"/>
+    </node>
+    <node id="54" lat="39.7294" lon="-104.8319">
+        <tag k="name" v="Aurora"/>
+    </node>
+    <node id="55" lat="21.3069" lon="-157.8583">
+        <tag k="name" v="Honolulu"/>
+    </node>
+    <node id="56" lat="33.8366" lon="-117.9143">
+        <tag k="name" v="Anaheim"/>
+    </node>
+    <node id="57" lat="33.7455" lon="-117.8677">
+        <tag k="name" v="Santa Ana"/>
+    </node>
+    <node id="58" lat="27.8006" lon="-97.3964">
+        <tag k="name" v="Corpus Christi"/>
+    </node>
+    <node id="59" lat="33.9806" lon="-117.3755">
+        <tag k="name" v="Riverside"/>
+    </node>
+    <node id="60" lat="38.0406" lon="-84.5037">
+        <tag k="name" v="Lexington"/>
+    </node>
+    <node id="61" lat="37.9577" lon="-121.2908">
+        <tag k="name" v="Stockton"/>
+    </node>
+    <node id="62" lat="36.0395" lon="-114.9817">
+        <tag k="name" v="Henderson"/>
+    </node>
+    <node id="63" lat="44.9537" lon="-93.0900">
+        <tag k="name" v="Saint Paul"/>
+    </node>
+    <node id="64" lat="38.6270" lon="-90.1994">
+        <tag k="name" v="St. Louis"/>
+    </node>
+    <node id="65" lat="39.1031" lon="-84.5120">
+        <tag k="name" v="Cincinnati"/>
+    </node>
+    <node id="66" lat="40.4406" lon="-79.9959">
+        <tag k="name" v="Pittsburgh"/>
+    </node>
+    <node id="67" lat="36.0726" lon="-79.7920">
+        <tag k="name" v="Greensboro"/>
+    </node>
+    <node id="68" lat="61.2181" lon="-149.9003">
+        <tag k="name" v="Anchorage"/>
+    </node>
+    <node id="69" lat="33.0198" lon="-96.6989">
+        <tag k="name" v="Plano"/>
+    </node>
+    <node id="70" lat="40.8136" lon="-96.7026">
+        <tag k="name" v="Lincoln"/>
+    </node>
+    <node id="71" lat="28.5383" lon="-81.3792">
+        <tag k="name" v="Orlando"/>
+    </node>
+    <node id="72" lat="33.6846" lon="-117.8265">
+        <tag k="name" v="Irvine"/>
+    </node>
+    <node id="73" lat="40.7357" lon="-74.1724">
+        <tag k="name" v="Newark"/>
+    </node>
+    <node id="74" lat="41.6528" lon="-83.5379">
+        <tag k="name" v="Toledo"/>
+    </node>
+    <node id="75" lat="35.9940" lon="-78.8986">
+        <tag k="name" v="Durham"/>
+    </node>
+    <node id="76" lat="32.6401" lon="-117.0842">
+        <tag k="name" v="Chula Vista"/>
+    </node>
+    <node id="77" lat="41.0793" lon="-85.1394">
+        <tag k="name" v="Fort Wayne"/>
+    </node>
+    <node id="78" lat="40.7178" lon="-74.0431">
+        <tag k="name" v="Jersey City"/>
+    </node>
+    <node id="79" lat="27.7676" lon="-82.6403">
+        <tag k="name" v="St. Petersburg"/>
+    </node>
+    <node id="80" lat="33.5779" lon="-101.8552">
+        <tag k="name" v="Lubbock"/>
+    </node>
+    <node id="81" lat="43.0731" lon="-89.4012">
+        <tag k="name" v="Madison"/>
+    </node>
+    <node id="82" lat="33.3528" lon="-111.7890">
+        <tag k="name" v="Gilbert"/>
+    </node>
+    <node id="83" lat="39.5296" lon="-119.8138">
+        <tag k="name" v="Reno"/>
+    </node>
+    <node id="84" lat="25.8576" lon="-80.2781">
+        <tag k="name" v="Hialeah"/>
+    </node>
+    <node id="85" lat="32.9126" lon="-96.6389">
+        <tag k="name" v="Garland"/>
+    </node>
+    <node id="86" lat="36.7682" lon="-76.2875">
+        <tag k="name" v="Chesapeake"/>
+    </node>
+    <node id="87" lat="32.8140" lon="-96.9489">
+        <tag k="name" v="Irving"/>
+    </node>
+    <node id="88" lat="33.4942" lon="-111.9261">
+        <tag k="name" v="Scottsdale"/>
+    </node>
+    <node id="89" lat="36.1989" lon="-115.1175">
+        <tag k="name" v="North Las Vegas"/>
+    </node>
+    <node id="90" lat="37.5483" lon="-121.9886">
+        <tag k="name" v="Fremont"/>
+    </node>
+    <node id="91" lat="30.4515" lon="-91.1871">
+        <tag k="name" v="Baton Rouge"/>
+    </node>
+    <node id="92" lat="37.5407" lon="-77.4360">
+        <tag k="name" v="Richmond"/>
+    </node>
+    <node id="93" lat="43.6150" lon="-116.2023">
+        <tag k="name" v="Boise"/>
+    </node>
+    <node id="94" lat="34.1083" lon="-117.2898">
+        <tag k="name" v="San Bernardino"/>
+    </node>
+    <node id="95" lat="33.5186" lon="-86.8104">
+        <tag k="name" v="Birmingham"/>
+    </node>
+    <node id="96" lat="47.6588" lon="-117.4260">
+        <tag k="name" v="Spokane"/>
+    </node>
+    <node id="97" lat="43.1566" lon="-77.6088">
+        <tag k="name" v="Rochester"/>
+    </node>
+    <node id="98" lat="37.6391" lon="-120.9969">
+        <tag k="name" v="Modesto"/>
+    </node>
+    <node id="99" lat="35.0527" lon="-78.8784">
+        <tag k="name" v="Fayetteville"/>
+    </node>
+    <node id="100" lat="47.2529" lon="-122.4443">
+        <tag k="name" v="Tacoma"/>
+    </node>
+    
+    
+    <!--Ways represent roads connecting the nodes-->
+    <way id="101">
+        <nd ref="1"/>
+        
+        
+        <nd ref="2"/>
+        
+        
+        <tag k="name" v="Road 1"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="2"/>
+    </way>
+    
+    
+    <way id="102">
+        <nd ref="2"/>
+        
+        
+        <nd ref="3"/>
+        
+        
+        <tag k="name" v="Road 2"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="3"/>
+    </way>
+    
+    
+    <way id="103">
+        <nd ref="3"/>
+        
+        
+        <nd ref="4"/>
+        
+        
+        <tag k="name" v="Road 3"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="4"/>
+    </way>
+    
+    
+    <way id="104">
+        <nd ref="4"/>
+        
+        
+        <nd ref="5"/>
+        
+        
+        <tag k="name" v="Road 4"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="5"/>
+    </way>
+    
+    
+    <way id="105">
+        <nd ref="5"/>
+        
+        
+        <nd ref="6"/>
+        
+        
+        <tag k="name" v="Road 5"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="6"/>
+    </way>
+    
+    
+    <way id="106">
+        <nd ref="6"/>
+        
+        
+        <nd ref="7"/>
+        
+        
+        <tag k="name" v="Road 6"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="7"/>
+    </way>
+    
+    
+    <way id="107">
+        <nd ref="7"/>
+        
+        
+        <nd ref="8"/>
+        
+        
+        <tag k="name" v="Road 7"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="8"/>
+    </way>
+    
+    
+    <way id="108">
+        <nd ref="8"/>
+        
+        
+        <nd ref="9"/>
+        
+        
+        <tag k="name" v="Road 8"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="9"/>
+    </way>
+    
+    
+    <way id="109">
+        <nd ref="9"/>
+        
+        
+        <nd ref="10"/>
+        
+        
+        <tag k="name" v="Road 9"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="10"/>
+    </way>
+    
+    
+    <way id="110">
+        <nd ref="10"/>
+        
+        
+        <nd ref="11"/>
+        
+        
+        <tag k="name" v="Road 10"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="1"/>
+    </way>
+    
+    
+    <way id="111">
+        <nd ref="11"/>
+        
+        
+        <nd ref="12"/>
+        
+        
+        <tag k="name" v="Road 11"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="2"/>
+    </way>
+    
+    
+    <way id="112">
+        <nd ref="12"/>
+        
+        
+        <nd ref="13"/>
+        
+        
+        <tag k="name" v="Road 12"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="3"/>
+    </way>
+    
+    
+    <way id="113">
+        <nd ref="13"/>
+        
+        
+        <nd ref="14"/>
+        
+        
+        <tag k="name" v="Road 13"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="4"/>
+    </way>
+    
+    
+    <way id="114">
+        <nd ref="14"/>
+        
+        
+        <nd ref="15"/>
+        
+        
+        <tag k="name" v="Road 14"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="5"/>
+    </way>
+    
+    
+    <way id="115">
+        <nd ref="15"/>
+        
+        
+        <nd ref="16"/>
+        
+        
+        <tag k="name" v="Road 15"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="6"/>
+    </way>
+    
+    
+    <way id="116">
+        <nd ref="16"/>
+        
+        
+        <nd ref="17"/>
+        
+        
+        <tag k="name" v="Road 16"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="7"/>
+    </way>
+    
+    
+    <way id="117">
+        <nd ref="17"/>
+        
+        
+        <nd ref="18"/>
+        
+        
+        <tag k="name" v="Road 17"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="8"/>
+    </way>
+    
+    
+    <way id="118">
+        <nd ref="18"/>
+        
+        
+        <nd ref="19"/>
+        
+        
+        <tag k="name" v="Road 18"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="9"/>
+    </way>
+    
+    
+    <way id="119">
+        <nd ref="19"/>
+        
+        
+        <nd ref="20"/>
+        
+        
+        <tag k="name" v="Road 19"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="10"/>
+    </way>
+    
+    
+    <way id="120">
+        <nd ref="20"/>
+        
+        
+        <nd ref="21"/>
+        
+        
+        <tag k="name" v="Road 20"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="1"/>
+    </way>
+    
+    
+    <way id="121">
+        <nd ref="21"/>
+        
+        
+        <nd ref="22"/>
+        
+        
+        <tag k="name" v="Road 21"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="2"/>
+    </way>
+    
+    
+    <way id="122">
+        <nd ref="22"/>
+        
+        
+        <nd ref="23"/>
+        
+        
+        <tag k="name" v="Road 22"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="3"/>
+    </way>
+    
+    
+    <way id="123">
+        <nd ref="23"/>
+        
+        
+        <nd ref="24"/>
+        
+        
+        <tag k="name" v="Road 23"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="4"/>
+    </way>
+    
+    
+    <way id="124">
+        <nd ref="24"/>
+        
+        
+        <nd ref="25"/>
+        
+        
+        <tag k="name" v="Road 24"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="5"/>
+    </way>
+    
+    
+    <way id="125">
+        <nd ref="25"/>
+        
+        
+        <nd ref="26"/>
+        
+        
+        <tag k="name" v="Road 25"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="6"/>
+    </way>
+    
+    
+    <way id="126">
+        <nd ref="26"/>
+        
+        
+        <nd ref="27"/>
+        
+        
+        <tag k="name" v="Road 26"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="7"/>
+    </way>
+    
+    
+    <way id="127">
+        <nd ref="27"/>
+        
+        
+        <nd ref="28"/>
+        
+        
+        <tag k="name" v="Road 27"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="8"/>
+    </way>
+    
+    
+    <way id="128">
+        <nd ref="28"/>
+        
+        
+        <nd ref="29"/>
+        
+        
+        <tag k="name" v="Road 28"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="9"/>
+    </way>
+    
+    
+    <way id="129">
+        <nd ref="29"/>
+        
+        
+        <nd ref="30"/>
+        
+        
+        <tag k="name" v="Road 29"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="10"/>
+    </way>
+    
+    
+    <way id="130">
+        <nd ref="30"/>
+        
+        
+        <nd ref="31"/>
+        
+        
+        <tag k="name" v="Road 30"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="1"/>
+    </way>
+    
+    
+    <way id="131">
+        <nd ref="31"/>
+        
+        
+        <nd ref="32"/>
+        
+        
+        <tag k="name" v="Road 31"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="2"/>
+    </way>
+    
+    
+    <way id="132">
+        <nd ref="32"/>
+        
+        
+        <nd ref="33"/>
+        
+        
+        <tag k="name" v="Road 32"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="3"/>
+    </way>
+    
+    
+    <way id="133">
+        <nd ref="33"/>
+        
+        
+        <nd ref="34"/>
+        
+        
+        <tag k="name" v="Road 33"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="4"/>
+    </way>
+    
+    
+    <way id="134">
+        <nd ref="34"/>
+        
+        
+        <nd ref="35"/>
+        
+        
+        <tag k="name" v="Road 34"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="5"/>
+    </way>
+    
+    
+    <way id="135">
+        <nd ref="35"/>
+        
+        
+        <nd ref="36"/>
+        
+        
+        <tag k="name" v="Road 35"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="6"/>
+    </way>
+    
+    
+    <way id="136">
+        <nd ref="36"/>
+        
+        
+        <nd ref="37"/>
+        
+        
+        <tag k="name" v="Road 36"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="7"/>
+    </way>
+    
+    
+    <way id="137">
+        <nd ref="37"/>
+        
+        
+        <nd ref="38"/>
+        
+        
+        <tag k="name" v="Road 37"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="8"/>
+    </way>
+    
+    
+    <way id="138">
+        <nd ref="38"/>
+        
+        
+        <nd ref="39"/>
+        
+        
+        <tag k="name" v="Road 38"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="9"/>
+    </way>
+    
+    
+    <way id="139">
+        <nd ref="39"/>
+        
+        
+        <nd ref="40"/>
+        
+        
+        <tag k="name" v="Road 39"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="10"/>
+    </way>
+    
+    
+    <way id="140">
+        <nd ref="40"/>
+        
+        
+        <nd ref="41"/>
+        
+        
+        <tag k="name" v="Road 40"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="1"/>
+    </way>
+    
+    
+    <way id="141">
+        <nd ref="41"/>
+        
+        
+        <nd ref="42"/>
+        
+        
+        <tag k="name" v="Road 41"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="2"/>
+    </way>
+    
+    
+    <way id="142">
+        <nd ref="42"/>
+        
+        
+        <nd ref="43"/>
+        
+        
+        <tag k="name" v="Road 42"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="3"/>
+    </way>
+    
+    
+    <way id="143">
+        <nd ref="43"/>
+        
+        
+        <nd ref="44"/>
+        
+        
+        <tag k="name" v="Road 43"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="4"/>
+    </way>
+    
+    
+    <way id="144">
+        <nd ref="44"/>
+        
+        
+        <nd ref="45"/>
+        
+        
+        <tag k="name" v="Road 44"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="5"/>
+    </way>
+    
+    
+    <way id="145">
+        <nd ref="45"/>
+        
+        
+        <nd ref="46"/>
+        
+        
+        <tag k="name" v="Road 45"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="6"/>
+    </way>
+    
+    
+    <way id="146">
+        <nd ref="46"/>
+        
+        
+        <nd ref="47"/>
+        
+        
+        <tag k="name" v="Road 46"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="7"/>
+    </way>
+    
+    
+    <way id="147">
+        <nd ref="47"/>
+        
+        
+        <nd ref="48"/>
+        
+        
+        <tag k="name" v="Road 47"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="8"/>
+    </way>
+    
+    
+    <way id="148">
+        <nd ref="48"/>
+        
+        
+        <nd ref="49"/>
+        
+        
+        <tag k="name" v="Road 48"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="9"/>
+    </way>
+    
+    
+    <way id="149">
+        <nd ref="49"/>
+        
+        
+        <nd ref="50"/>
+        
+        
+        <tag k="name" v="Road 49"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="10"/>
+    </way>
+    
+    
+    <way id="150">
+        <nd ref="50"/>
+        
+        
+        <nd ref="51"/>
+        
+        
+        <tag k="name" v="Road 50"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="1"/>
+    </way>
+    
+    
+    <way id="151">
+        <nd ref="51"/>
+        
+        
+        <nd ref="52"/>
+        
+        
+        <tag k="name" v="Road 51"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="2"/>
+    </way>
+    
+    
+    <way id="152">
+        <nd ref="52"/>
+        
+        
+        <nd ref="53"/>
+        
+        
+        <tag k="name" v="Road 52"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="3"/>
+    </way>
+    
+    
+    <way id="153">
+        <nd ref="53"/>
+        
+        
+        <nd ref="54"/>
+        
+        
+        <tag k="name" v="Road 53"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="4"/>
+    </way>
+    
+    
+    <way id="154">
+        <nd ref="54"/>
+        
+        
+        <nd ref="55"/>
+        
+        
+        <tag k="name" v="Road 54"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="5"/>
+    </way>
+    
+    
+    <way id="155">
+        <nd ref="55"/>
+        
+        
+        <nd ref="56"/>
+        
+        
+        <tag k="name" v="Road 55"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="6"/>
+    </way>
+    
+    
+    <way id="156">
+        <nd ref="56"/>
+        
+        
+        <nd ref="57"/>
+        
+        
+        <tag k="name" v="Road 56"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="7"/>
+    </way>
+    
+    
+    <way id="157">
+        <nd ref="57"/>
+        
+        
+        <nd ref="58"/>
+        
+        
+        <tag k="name" v="Road 57"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="8"/>
+    </way>
+    
+    
+    <way id="158">
+        <nd ref="58"/>
+        
+        
+        <nd ref="59"/>
+        
+        
+        <tag k="name" v="Road 58"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="9"/>
+    </way>
+    
+    
+    <way id="159">
+        <nd ref="59"/>
+        
+        
+        <nd ref="60"/>
+        
+        
+        <tag k="name" v="Road 59"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="10"/>
+    </way>
+    
+    
+    <way id="160">
+        <nd ref="60"/>
+        
+        
+        <nd ref="61"/>
+        
+        
+        <tag k="name" v="Road 60"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="1"/>
+    </way>
+    
+    
+    <way id="161">
+        <nd ref="61"/>
+        
+        
+        <nd ref="62"/>
+        
+        
+        <tag k="name" v="Road 61"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="2"/>
+    </way>
+    
+    
+    <way id="162">
+        <nd ref="62"/>
+        
+        
+        <nd ref="63"/>
+        
+        
+        <tag k="name" v="Road 62"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="3"/>
+    </way>
+    
+    
+    <way id="163">
+        <nd ref="63"/>
+        
+        
+        <nd ref="64"/>
+        
+        
+        <tag k="name" v="Road 63"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="4"/>
+    </way>
+    
+    
+    <way id="164">
+        <nd ref="64"/>
+        
+        
+        <nd ref="65"/>
+        
+        
+        <tag k="name" v="Road 64"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="5"/>
+    </way>
+    
+    
+    <way id="165">
+        <nd ref="65"/>
+        
+        
+        <nd ref="66"/>
+        
+        
+        <tag k="name" v="Road 65"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="6"/>
+    </way>
+    
+    
+    <way id="166">
+        <nd ref="66"/>
+        
+        
+        <nd ref="67"/>
+        
+        
+        <tag k="name" v="Road 66"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="7"/>
+    </way>
+    
+    
+    <way id="167">
+        <nd ref="67"/>
+        
+        
+        <nd ref="68"/>
+        
+        
+        <tag k="name" v="Road 67"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="8"/>
+    </way>
+    
+    
+    <way id="168">
+        <nd ref="68"/>
+        
+        
+        <nd ref="69"/>
+        
+        
+        <tag k="name" v="Road 68"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="9"/>
+    </way>
+    
+    
+    <way id="169">
+        <nd ref="69"/>
+        
+        
+        <nd ref="70"/>
+        
+        
+        <tag k="name" v="Road 69"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="10"/>
+    </way>
+    
+    
+    <way id="170">
+        <nd ref="70"/>
+        
+        
+        <nd ref="71"/>
+        
+        
+        <tag k="name" v="Road 70"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="1"/>
+    </way>
+    
+    
+    <way id="171">
+        <nd ref="71"/>
+        
+        
+        <nd ref="72"/>
+        
+        
+        <tag k="name" v="Road 71"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="2"/>
+    </way>
+    
+    
+    <way id="172">
+        <nd ref="72"/>
+        
+        
+        <nd ref="73"/>
+        
+        
+        <tag k="name" v="Road 72"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="3"/>
+    </way>
+    
+    
+    <way id="173">
+        <nd ref="73"/>
+        
+        
+        <nd ref="74"/>
+        
+        
+        <tag k="name" v="Road 73"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="4"/>
+    </way>
+    
+    
+    <way id="174">
+        <nd ref="74"/>
+        
+        
+        <nd ref="75"/>
+        
+        
+        <tag k="name" v="Road 74"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="5"/>
+    </way>
+    
+    
+    <way id="175">
+        <nd ref="75"/>
+        
+        
+        <nd ref="76"/>
+        
+        
+        <tag k="name" v="Road 75"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="6"/>
+    </way>
+    
+    
+    <way id="176">
+        <nd ref="76"/>
+        
+        
+        <nd ref="77"/>
+        
+        
+        <tag k="name" v="Road 76"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="7"/>
+    </way>
+    
+    
+    <way id="177">
+        <nd ref="77"/>
+        
+        
+        <nd ref="78"/>
+        
+        
+        <tag k="name" v="Road 77"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="8"/>
+    </way>
+    
+    
+    <way id="178">
+        <nd ref="78"/>
+        
+        
+        <nd ref="79"/>
+        
+        
+        <tag k="name" v="Road 78"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="9"/>
+    </way>
+    
+    
+    <way id="179">
+        <nd ref="79"/>
+        
+        
+        <nd ref="80"/>
+        
+        
+        <tag k="name" v="Road 79"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="10"/>
+    </way>
+    
+    
+    <way id="180">
+        <nd ref="80"/>
+        
+        
+        <nd ref="81"/>
+        
+        
+        <tag k="name" v="Road 80"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="1"/>
+    </way>
+    
+    
+    <way id="181">
+        <nd ref="81"/>
+        
+        
+        <nd ref="82"/>
+        
+        
+        <tag k="name" v="Road 81"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="2"/>
+    </way>
+    
+    
+    <way id="182">
+        <nd ref="82"/>
+        
+        
+        <nd ref="83"/>
+        
+        
+        <tag k="name" v="Road 82"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="3"/>
+    </way>
+    
+    
+    <way id="183">
+        <nd ref="83"/>
+        
+        
+        <nd ref="84"/>
+        
+        
+        <tag k="name" v="Road 83"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="4"/>
+    </way>
+    
+    
+    <way id="184">
+        <nd ref="84"/>
+        
+        
+        <nd ref="85"/>
+        
+        
+        <tag k="name" v="Road 84"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="5"/>
+    </way>
+    
+    
+    <way id="185">
+        <nd ref="85"/>
+        
+        
+        <nd ref="86"/>
+        
+        
+        <tag k="name" v="Road 85"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="6"/>
+    </way>
+    
+    
+    <way id="186">
+        <nd ref="86"/>
+        
+        
+        <nd ref="87"/>
+        
+        
+        <tag k="name" v="Road 86"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="7"/>
+    </way>
+    
+    
+    <way id="187">
+        <nd ref="87"/>
+        
+        
+        <nd ref="88"/>
+        
+        
+        <tag k="name" v="Road 87"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="8"/>
+    </way>
+    
+    
+    <way id="188">
+        <nd ref="88"/>
+        
+        
+        <nd ref="89"/>
+        
+        
+        <tag k="name" v="Road 88"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="9"/>
+    </way>
+    
+    
+    <way id="189">
+        <nd ref="89"/>
+        
+        
+        <nd ref="90"/>
+        
+        
+        <tag k="name" v="Road 89"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="10"/>
+    </way>
+    
+    
+    <way id="190">
+        <nd ref="90"/>
+        
+        
+        <nd ref="91"/>
+        
+        
+        <tag k="name" v="Road 90"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="1"/>
+    </way>
+    
+    
+    <way id="191">
+        <nd ref="91"/>
+        
+        
+        <nd ref="92"/>
+        
+        
+        <tag k="name" v="Road 91"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="2"/>
+    </way>
+    
+    
+    <way id="192">
+        <nd ref="92"/>
+        
+        
+        <nd ref="93"/>
+        
+        
+        <tag k="name" v="Road 92"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="3"/>
+    </way>
+    
+    
+    <way id="193">
+        <nd ref="93"/>
+        
+        
+        <nd ref="94"/>
+        
+        
+        <tag k="name" v="Road 93"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="4"/>
+    </way>
+    
+    
+    <way id="194">
+        <nd ref="94"/>
+        
+        
+        <nd ref="95"/>
+        
+        
+        <tag k="name" v="Road 94"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="5"/>
+    </way>
+    
+    
+    <way id="195">
+        <nd ref="95"/>
+        
+        
+        <nd ref="96"/>
+        
+        
+        <tag k="name" v="Road 95"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="6"/>
+    </way>
+    
+    
+    <way id="196">
+        <nd ref="96"/>
+        
+        
+        <nd ref="97"/>
+        
+        
+        <tag k="name" v="Road 96"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="7"/>
+    </way>
+    
+    
+    <way id="197">
+        <nd ref="97"/>
+        
+        
+        <nd ref="98"/>
+        
+        
+        <tag k="name" v="Road 97"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="8"/>
+    </way>
+    
+    
+    <way id="198">
+        <nd ref="98"/>
+        
+        
+        <nd ref="99"/>
+        
+        
+        <tag k="name" v="Road 98"/>
+        
+        
+        <tag k="oneway" v="no"/>
+        
+        
+        <tag k="weight" v="9"/>
+    </way>
+    
+    
+    <way id="199">
+        <nd ref="99"/>
+        
+        
+        <nd ref="100"/>
+        
+        
+        <tag k="name" v="Road 99"/>
+        
+        
+        <tag k="oneway" v="yes"/>
+        
+        
+        <tag k="weight" v="10"/>
+    </way>
+    
+    
+</osm>
